@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Cura 4.0\n"
+"Project-Id-Version: Cura 4.1\n"
 "Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
-"POT-Creation-Date: 2019-02-26 16:36+0000\n"
-"PO-Revision-Date: 2018-10-01 14:15+0100\n"
-"Last-Translator: Paulo Miranda <av@utopica3d.com>\n"
+"POT-Creation-Date: 2019-05-14 12:48+0000\n"
+"PO-Revision-Date: 2019-03-14 14:15+0100\n"
+"Last-Translator: Portuguese <info@bothof.nl>\n"
 "Language-Team: Paulo Miranda <av@utopica3d.com>, Portuguese <info@bothof.nl>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -240,8 +240,8 @@ msgstr "Número de núcleos de extrusão. Um núcleo de extrusão é o conjunto 
 
 #: fdmprinter.def.json
 msgctxt "extruders_enabled_count label"
-msgid "Number of Extruders that are enabled"
-msgstr "O numero de Extrusores que estão activos"
+msgid "Number of Extruders That Are Enabled"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "extruders_enabled_count description"
@@ -250,8 +250,8 @@ msgstr "Número de núcleos de extrusão que estão activos; definido automatica
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_tip_outer_diameter label"
-msgid "Outer nozzle diameter"
-msgstr "Diâmetro externo do nozzle"
+msgid "Outer Nozzle Diameter"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_tip_outer_diameter description"
@@ -260,8 +260,8 @@ msgstr "O diâmetro externo da ponta do nozzle."
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_head_distance label"
-msgid "Nozzle length"
-msgstr "Comprimento do nozzle"
+msgid "Nozzle Length"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_head_distance description"
@@ -270,8 +270,8 @@ msgstr "A diferença de altura entre a ponta do nozzle e o extremo inferior da c
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_expansion_angle label"
-msgid "Nozzle angle"
-msgstr "Ângulo do nozzle"
+msgid "Nozzle Angle"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_expansion_angle description"
@@ -280,8 +280,8 @@ msgstr "O ângulo entre o plano horizontal e a parte cónica imediatamente acima
 
 #: fdmprinter.def.json
 msgctxt "machine_heat_zone_length label"
-msgid "Heat zone length"
-msgstr "Comprimento da zona de aquecimento"
+msgid "Heat Zone Length"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_heat_zone_length description"
@@ -310,8 +310,8 @@ msgstr "Controlar ou não a temperatura a partir do Cura. Desative esta opção 
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_heat_up_speed label"
-msgid "Heat up speed"
-msgstr "Velocidade de aquecimento"
+msgid "Heat Up Speed"
+msgstr ""
 
 # intervalo?
 #: fdmprinter.def.json
@@ -321,8 +321,8 @@ msgstr "A velocidade média (°C/s) a que o nozzle é aquecido, média calculada
 
 #: fdmprinter.def.json
 msgctxt "machine_nozzle_cool_down_speed label"
-msgid "Cool down speed"
-msgstr "Velocidade de arrefecimento"
+msgid "Cool Down Speed"
+msgstr ""
 
 # intervalo?
 #: fdmprinter.def.json
@@ -342,8 +342,8 @@ msgstr "O tempo mínimo durante o qual um extrusor tem de estar inativo antes de
 
 #: fdmprinter.def.json
 msgctxt "machine_gcode_flavor label"
-msgid "G-code flavour"
-msgstr "Variante de G-code"
+msgid "G-code Flavour"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_gcode_flavor description"
@@ -407,8 +407,8 @@ msgstr "Se se deve utilizar os comandos de retração do firmware (G10/G11), em 
 
 #: fdmprinter.def.json
 msgctxt "machine_disallowed_areas label"
-msgid "Disallowed areas"
-msgstr "Áreas não permitidas"
+msgid "Disallowed Areas"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_disallowed_areas description"
@@ -427,8 +427,8 @@ msgstr "Uma lista de polígonos com áreas onde o nozzle não pode entrar."
 
 #: fdmprinter.def.json
 msgctxt "machine_head_polygon label"
-msgid "Machine head polygon"
-msgstr "Polígono da cabeça da máquina"
+msgid "Machine Head Polygon"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_head_polygon description"
@@ -437,8 +437,8 @@ msgstr "Uma silhueta 2D da cabeça de impressão (excluindo tampas do(s) ventila
 
 #: fdmprinter.def.json
 msgctxt "machine_head_with_fans_polygon label"
-msgid "Machine head & Fan polygon"
-msgstr "Polígono da cabeça e ventilador da máquina"
+msgid "Machine Head & Fan Polygon"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_head_with_fans_polygon description"
@@ -447,8 +447,8 @@ msgstr "Uma silhueta 2D da cabeça de impressão (incluindo tampas do(s) ventila
 
 #: fdmprinter.def.json
 msgctxt "gantry_height label"
-msgid "Gantry height"
-msgstr "Altura do pórtico"
+msgid "Gantry Height"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "gantry_height description"
@@ -477,8 +477,8 @@ msgstr "O diâmetro interno do nozzle. Altere esta definição quando utilizar u
 
 #: fdmprinter.def.json
 msgctxt "machine_use_extruder_offset_to_offset_coords label"
-msgid "Offset With Extruder"
-msgstr "Desviar com Extrusor"
+msgid "Offset with Extruder"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "machine_use_extruder_offset_to_offset_coords description"
@@ -1741,7 +1741,7 @@ msgstr "Sobreposição Revestimento (%)"
 #: fdmprinter.def.json
 msgctxt "skin_overlap description"
 msgid "Adjust the amount of overlap between the walls and (the endpoints of) the skin-centerlines, as a percentage of the line widths of the skin lines and the innermost wall. A slight overlap allows the walls to connect firmly to the skin. Note that, given an equal skin and wall line-width, any percentage over 50% may already cause any skin to go past the wall, because at that point the position of the nozzle of the skin-extruder may already reach past the middle of the wall."
-msgstr ""
+msgstr "Ajuste a quantidade de sobreposição entre as paredes e (as extremidades) das linhas centrais de revestimento, como percentagem das larguras de linha das linhas de revestimento e da parede mais interna. Uma ligeira sobreposição permite que as paredes se liguem firmemente ao revestimento. Observe que no caso de um revestimento e uma largura de revestimento da parede iguais, qualquer percentagem acima de 50% pode fazer com que o revestimento ultrapasse a parede, visto que a posição do bocal do extrusor de revestimento pode já ultrapassar o centro da parede neste ponto."
 
 #: fdmprinter.def.json
 msgctxt "skin_overlap_mm label"
@@ -1751,7 +1751,7 @@ msgstr "Sobreposição Revestimento (mm)"
 #: fdmprinter.def.json
 msgctxt "skin_overlap_mm description"
 msgid "Adjust the amount of overlap between the walls and (the endpoints of) the skin-centerlines. A slight overlap allows the walls to connect firmly to the skin. Note that, given an equal skin and wall line-width, any value over half the width of the wall may already cause any skin to go past the wall, because at that point the position of the nozzle of the skin-extruder may already reach past the middle of the wall."
-msgstr ""
+msgstr "Ajuste a quantidade de sobreposição entre as paredes e (as extremidades) das linhas centrais de revestimento. Uma ligeira sobreposição permite que as paredes se liguem firmemente ao revestimento. Observe que no caso de um revestimento e uma largura de revestimento da parede iguais, qualquer valor acima da metade da largura da parede pode fazer com que o revestimento ultrapasse a parede, visto que a posição do bocal do extrusor de revestimento pode já ultrapassar o centro da parede."
 
 #: fdmprinter.def.json
 msgctxt "infill_wipe_dist label"
@@ -1937,6 +1937,16 @@ msgstr "Temperatura Impressão Predefinida"
 msgctxt "default_material_print_temperature description"
 msgid "The default temperature used for printing. This should be the \"base\" temperature of a material. All other print temperatures should use offsets based on this value"
 msgstr "A temperatura predefinida utilizada para a impressão. Esta deve ser a temperatura \"base\" de um material. Todas as outras temperaturas de impressão devem ser baseadas neste valor"
+
+#: fdmprinter.def.json
+msgctxt "build_volume_temperature label"
+msgid "Build Volume Temperature"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "build_volume_temperature description"
+msgid "The temperature used for build volume. If this is 0, the build volume temperature will not be adjusted."
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "material_print_temperature label"
@@ -2209,7 +2219,7 @@ msgstr "Distância de retração de substituição do nozzle"
 #: fdmprinter.def.json
 msgctxt "switch_extruder_retraction_amount description"
 msgid "The amount of retraction when switching extruders. Set to 0 for no retraction at all. This should generally be the same as the length of the heat zone."
-msgstr ""
+msgstr "A quantidade de retração ao mudar de extrusor. Defina como 0 para não obter qualquer retração. Normalmente, esta deve ser a mesma que o comprimento da zona de aquecimento."
 
 #: fdmprinter.def.json
 msgctxt "switch_extruder_retraction_speeds label"
@@ -2900,7 +2910,7 @@ msgstr "Modo de Combing"
 #: fdmprinter.def.json
 msgctxt "retraction_combing description"
 msgid "Combing keeps the nozzle within already printed areas when traveling. This results in slightly longer travel moves but reduces the need for retractions. If combing is off, the material will retract and the nozzle moves in a straight line to the next point. It is also possible to avoid combing over top/bottom skin areas or to only comb within the infill."
-msgstr ""
+msgstr "Combing mantém o bocal em áreas já impressas durante a deslocação. Isto resulta em movimentos de deslocação ligeiramente mais longos, mas reduz a necessidade de retrações. Se o combing estiver desativado, o material será retraído e o bocal irá deslocar-se em linha reta para o próximo ponto. Também é possível evitar o combing em áreas de revestimento superiores/inferiores ou apenas efetuar o combing no enchimento."
 
 #: fdmprinter.def.json
 msgctxt "retraction_combing option off"
@@ -3046,6 +3056,16 @@ msgstr "Salto-Z Após Mudança Extrusor"
 msgctxt "retraction_hop_after_extruder_switch description"
 msgid "After the machine switched from one extruder to the other, the build plate is lowered to create clearance between the nozzle and the print. This prevents the nozzle from leaving oozed material on the outside of a print."
 msgstr "Após a máquina mudar de um extrusor para outro, a base de construção é rebaixada para criar uma folga entre o nozzle e a impressão. Desta forma, evita-se que o nozzle deixe, na parte exterior de uma impressão, algum material que possa escorrer quando acaba de imprimir."
+
+#: fdmprinter.def.json
+msgctxt "retraction_hop_after_extruder_switch_height label"
+msgid "Z Hop After Extruder Switch Height"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "retraction_hop_after_extruder_switch_height description"
+msgid "The height difference when performing a Z Hop after extruder switch."
+msgstr ""
 
 # rever!
 # todoas as strings de Arrefecimento
@@ -3328,6 +3348,11 @@ msgid "Cross"
 msgstr "Cruz"
 
 #: fdmprinter.def.json
+msgctxt "support_pattern option gyroid"
+msgid "Gyroid"
+msgstr ""
+
+#: fdmprinter.def.json
 msgctxt "support_wall_count label"
 msgid "Support Wall Line Count"
 msgstr "Número Linhas Paredes Suporte"
@@ -3573,12 +3598,12 @@ msgstr "A altura do enchimento de suporte de uma determinada densidade antes de 
 #: fdmprinter.def.json
 msgctxt "minimum_support_area label"
 msgid "Minimum Support Area"
-msgstr ""
+msgstr "Área de suporte mínimo"
 
 #: fdmprinter.def.json
 msgctxt "minimum_support_area description"
 msgid "Minimum area size for support polygons. Polygons which have an area smaller than this value will not be generated."
-msgstr ""
+msgstr "Tamanho mínimo da área para polígonos de suporte. Os polígonos com uma área inferior a este valor não serão gerados."
 
 #: fdmprinter.def.json
 msgctxt "support_interface_enable label"
@@ -3811,62 +3836,62 @@ msgstr "Ziguezague"
 #: fdmprinter.def.json
 msgctxt "minimum_interface_area label"
 msgid "Minimum Support Interface Area"
-msgstr ""
+msgstr "Área mínima da interface de suporte"
 
 #: fdmprinter.def.json
 msgctxt "minimum_interface_area description"
 msgid "Minimum area size for support interface polygons. Polygons which have an area smaller than this value will not be generated."
-msgstr ""
+msgstr "Tamanho mínimo da área para polígonos da interface de suporte. Os polígonos com uma área inferior a este valor não serão gerados."
 
 #: fdmprinter.def.json
 msgctxt "minimum_roof_area label"
 msgid "Minimum Support Roof Area"
-msgstr ""
+msgstr "Área mínima do teto de suporte"
 
 #: fdmprinter.def.json
 msgctxt "minimum_roof_area description"
 msgid "Minimum area size for the roofs of the support. Polygons which have an area smaller than this value will not be generated."
-msgstr ""
+msgstr "Tamanho mínimo da área para os tetos de suporte. Os polígonos com uma área inferior a este valor não serão gerados."
 
 #: fdmprinter.def.json
 msgctxt "minimum_bottom_area label"
 msgid "Minimum Support Floor Area"
-msgstr ""
+msgstr "Área mínima do piso de suporte"
 
 #: fdmprinter.def.json
 msgctxt "minimum_bottom_area description"
 msgid "Minimum area size for the floors of the support. Polygons which have an area smaller than this value will not be generated."
-msgstr ""
+msgstr "Tamanho mínimo da área para os pisos de suporte. Os polígonos com uma área inferior a este valor não serão gerados."
 
 #: fdmprinter.def.json
 msgctxt "support_interface_offset label"
 msgid "Support Interface Horizontal Expansion"
-msgstr ""
+msgstr "Expansão horizontal da interface de suporte"
 
 #: fdmprinter.def.json
 msgctxt "support_interface_offset description"
 msgid "Amount of offset applied to the support interface polygons."
-msgstr ""
+msgstr "Quantidade do desvio aplicado aos polígonos da interface de suporte."
 
 #: fdmprinter.def.json
 msgctxt "support_roof_offset label"
 msgid "Support Roof Horizontal Expansion"
-msgstr ""
+msgstr "Expansão horizontal do teto de suporte"
 
 #: fdmprinter.def.json
 msgctxt "support_roof_offset description"
 msgid "Amount of offset applied to the roofs of the support."
-msgstr ""
+msgstr "Quantidade do desvio aplicado aos tetos de suporte."
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_offset label"
 msgid "Support Floor Horizontal Expansion"
-msgstr ""
+msgstr "Expansão horizontal do piso de suporte"
 
 #: fdmprinter.def.json
 msgctxt "support_bottom_offset description"
 msgid "Amount of offset applied to the floors of the support."
-msgstr ""
+msgstr "Quantidade do desvio aplicado aos pisos de suporte."
 
 #: fdmprinter.def.json
 msgctxt "support_fan_enable label"
@@ -4486,6 +4511,16 @@ msgctxt "prime_tower_wipe_enabled description"
 msgid "After printing the prime tower with one nozzle, wipe the oozed material from the other nozzle off on the prime tower."
 msgstr "Após a impressão da torre de preparação com um nozzle, limpe o material que vazou do nozzle para a torre de preparação."
 
+#: fdmprinter.def.json
+msgctxt "prime_tower_brim_enable label"
+msgid "Prime Tower Brim"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "prime_tower_brim_enable description"
+msgid "Prime-towers might need the extra adhesion afforded by a brim even if the model doesn't. Presently can't be used with the 'Raft' adhesion-type."
+msgstr ""
+
 # rever!
 #: fdmprinter.def.json
 msgctxt "ooze_shield_enabled label"
@@ -5027,6 +5062,16 @@ msgstr "Resolução Máxima Deslocação"
 msgctxt "meshfix_maximum_travel_resolution description"
 msgid "The minimum size of a travel line segment after slicing. If you increase this, the travel moves will have less smooth corners. This may allow the printer to keep up with the speed it has to process g-code, but it may cause model avoidance to become less accurate."
 msgstr "O tamanho mínimo de um segmento de deslocação após o seccionamento. Se aumentar este valor, o movimento de deslocação nos cantos será menos suave. Isto poderá permitir que a impressora acompanhe a velocidade que tem para processar o g-code, mas pode reduzir a precisão do movimento ao evitar as peças já impressas."
+
+#: fdmprinter.def.json
+msgctxt "meshfix_maximum_deviation label"
+msgid "Maximum Deviation"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "meshfix_maximum_deviation description"
+msgid "The maximum deviation allowed when reducing the resolution for the Maximum Resolution setting. If you increase this, the print will be less accurate, but the g-code will be smaller."
+msgstr ""
 
 # rever!
 # Is the english string correct? for the label?
@@ -5643,8 +5688,8 @@ msgstr "Distância entre o nozzle e as linhas horizontais descendentes. Uma maio
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_enabled label"
-msgid "Use adaptive layers"
-msgstr "Camadas Adaptáveis"
+msgid "Use Adaptive Layers"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_enabled description"
@@ -5653,8 +5698,8 @@ msgstr "Camadas Adaptáveis calcula as espessuras das camadas conforme a forma d
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_variation label"
-msgid "Adaptive layers maximum variation"
-msgstr "Variação Máxima Camadas Adaptáveis"
+msgid "Adaptive Layers Maximum Variation"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_variation description"
@@ -5663,8 +5708,8 @@ msgstr "A diferença máxima de espessura permitida em relação ao valor base d
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_variation_step label"
-msgid "Adaptive layers variation step size"
-msgstr "Variação Degraus Camadas Adaptáveis"
+msgid "Adaptive Layers Variation Step Size"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_variation_step description"
@@ -5673,8 +5718,8 @@ msgstr "A diferença de espessura da camada seguinte em comparação com a anter
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_threshold label"
-msgid "Adaptive layers threshold"
-msgstr "Limiar Camadas Adaptáveis"
+msgid "Adaptive Layers Threshold"
+msgstr ""
 
 #: fdmprinter.def.json
 msgctxt "adaptive_layer_height_threshold description"
@@ -5892,6 +5937,156 @@ msgid "Percentage fan speed to use when printing the third bridge skin layer."
 msgstr "Percentagem da velocidade da ventoinha a ser utilizada ao imprimir a terceira camada do revestimento de Bridge."
 
 #: fdmprinter.def.json
+msgctxt "clean_between_layers label"
+msgid "Wipe Nozzle Between Layers"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "clean_between_layers description"
+msgid "Whether to include nozzle wipe G-Code between layers. Enabling this setting could influence behavior of retract at layer change. Please use Wipe Retraction settings to control retraction at layers where the wipe script will be working."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "max_extrusion_before_wipe label"
+msgid "Material Volume Between Wipes"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "max_extrusion_before_wipe description"
+msgid "Maximum material, that can be extruded before another nozzle wipe is initiated."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_enable label"
+msgid "Wipe Retraction Enable"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_enable description"
+msgid "Retract the filament when the nozzle is moving over a non-printed area."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_amount label"
+msgid "Wipe Retraction Distance"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_amount description"
+msgid "Amount to retract the filament so it does not ooze during the wipe sequence."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_extra_prime_amount label"
+msgid "Wipe Retraction Extra Prime Amount"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_extra_prime_amount description"
+msgid "Some material can ooze away during a wipe travel moves, which can be compensated for here."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_speed label"
+msgid "Wipe Retraction Speed"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_speed description"
+msgid "The speed at which the filament is retracted and primed during a wipe retraction move."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_retract_speed label"
+msgid "Wipe Retraction Retract Speed"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_retract_speed description"
+msgid "The speed at which the filament is retracted during a wipe retraction move."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_prime_speed label"
+msgid "Retraction Prime Speed"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_retraction_prime_speed description"
+msgid "The speed at which the filament is primed during a wipe retraction move."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_pause label"
+msgid "Wipe Pause"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_pause description"
+msgid "Pause after the unretract."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_hop_enable label"
+msgid "Wipe Z Hop When Retracted"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_hop_enable description"
+msgid "Whenever a retraction is done, the build plate is lowered to create clearance between the nozzle and the print. It prevents the nozzle from hitting the print during travel moves, reducing the chance to knock the print from the build plate."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_hop_amount label"
+msgid "Wipe Z Hop Height"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_hop_amount description"
+msgid "The height difference when performing a Z Hop."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_hop_speed label"
+msgid "Wipe Hop Speed"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_hop_speed description"
+msgid "Speed to move the z-axis during the hop."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_brush_pos_x label"
+msgid "Wipe Brush X Position"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_brush_pos_x description"
+msgid "X location where wipe script will start."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_repeat_count label"
+msgid "Wipe Repeat Count"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_repeat_count description"
+msgid "Number of times to move the nozzle across the brush."
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_move_distance label"
+msgid "Wipe Move Distance"
+msgstr ""
+
+#: fdmprinter.def.json
+msgctxt "wipe_move_distance description"
+msgid "The distance to move the head back and forth across the brush."
+msgstr ""
+
+#: fdmprinter.def.json
 msgctxt "command_line_settings label"
 msgid "Command Line Settings"
 msgstr "Definições de linha de comando"
@@ -5950,6 +6145,74 @@ msgstr "Matriz Rotação do Objeto"
 msgctxt "mesh_rotation_matrix description"
 msgid "Transformation matrix to be applied to the model when loading it from file."
 msgstr "Matriz de transformação a ser aplicada ao modelo quando abrir o ficheiro."
+
+#~ msgctxt "extruders_enabled_count label"
+#~ msgid "Number of Extruders that are enabled"
+#~ msgstr "O numero de Extrusores que estão activos"
+
+#~ msgctxt "machine_nozzle_tip_outer_diameter label"
+#~ msgid "Outer nozzle diameter"
+#~ msgstr "Diâmetro externo do nozzle"
+
+#~ msgctxt "machine_nozzle_head_distance label"
+#~ msgid "Nozzle length"
+#~ msgstr "Comprimento do nozzle"
+
+#~ msgctxt "machine_nozzle_expansion_angle label"
+#~ msgid "Nozzle angle"
+#~ msgstr "Ângulo do nozzle"
+
+#~ msgctxt "machine_heat_zone_length label"
+#~ msgid "Heat zone length"
+#~ msgstr "Comprimento da zona de aquecimento"
+
+#~ msgctxt "machine_nozzle_heat_up_speed label"
+#~ msgid "Heat up speed"
+#~ msgstr "Velocidade de aquecimento"
+
+#~ msgctxt "machine_nozzle_cool_down_speed label"
+#~ msgid "Cool down speed"
+#~ msgstr "Velocidade de arrefecimento"
+
+#~ msgctxt "machine_gcode_flavor label"
+#~ msgid "G-code flavour"
+#~ msgstr "Variante de G-code"
+
+#~ msgctxt "machine_disallowed_areas label"
+#~ msgid "Disallowed areas"
+#~ msgstr "Áreas não permitidas"
+
+#~ msgctxt "machine_head_polygon label"
+#~ msgid "Machine head polygon"
+#~ msgstr "Polígono da cabeça da máquina"
+
+#~ msgctxt "machine_head_with_fans_polygon label"
+#~ msgid "Machine head & Fan polygon"
+#~ msgstr "Polígono da cabeça e ventilador da máquina"
+
+#~ msgctxt "gantry_height label"
+#~ msgid "Gantry height"
+#~ msgstr "Altura do pórtico"
+
+#~ msgctxt "machine_use_extruder_offset_to_offset_coords label"
+#~ msgid "Offset With Extruder"
+#~ msgstr "Desviar com Extrusor"
+
+#~ msgctxt "adaptive_layer_height_enabled label"
+#~ msgid "Use adaptive layers"
+#~ msgstr "Camadas Adaptáveis"
+
+#~ msgctxt "adaptive_layer_height_variation label"
+#~ msgid "Adaptive layers maximum variation"
+#~ msgstr "Variação Máxima Camadas Adaptáveis"
+
+#~ msgctxt "adaptive_layer_height_variation_step label"
+#~ msgid "Adaptive layers variation step size"
+#~ msgstr "Variação Degraus Camadas Adaptáveis"
+
+#~ msgctxt "adaptive_layer_height_threshold label"
+#~ msgid "Adaptive layers threshold"
+#~ msgstr "Limiar Camadas Adaptáveis"
 
 #~ msgctxt "skin_overlap description"
 #~ msgid "The amount of overlap between the skin and the walls as a percentage of the skin line width. A slight overlap allows the walls to connect firmly to the skin. This is a percentage of the average line widths of the skin lines and the innermost wall."

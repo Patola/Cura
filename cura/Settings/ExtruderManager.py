@@ -224,7 +224,16 @@ class ExtruderManager(QObject):
 
         # Get the extruders of all printable meshes in the scene
         meshes = [node for node in DepthFirstIterator(scene_root) if isinstance(node, SceneNode) and node.isSelectable()] #type: ignore #Ignore type error because iter() should get called automatically by Python syntax.
+
+        # Exclude anti-overhang meshes
+        mesh_list = []
         for mesh in meshes:
+            stack = mesh.callDecoration("getStack")
+            if stack is not None and (stack.getProperty("anti_overhang_mesh", "value") or stack.getProperty("support_mesh", "value")):
+                continue
+            mesh_list.append(mesh)
+
+        for mesh in mesh_list:
             extruder_stack_id = mesh.callDecoration("getActiveExtruder")
             if not extruder_stack_id:
                 # No per-object settings for this node
@@ -270,7 +279,8 @@ class ExtruderManager(QObject):
             extruder_str_nr = str(global_stack.getProperty("adhesion_extruder_nr", "value"))
             if extruder_str_nr == "-1":
                 extruder_str_nr = self._application.getMachineManager().defaultExtruderPosition
-            used_extruder_stack_ids.add(self.extruderIds[extruder_str_nr])
+            if extruder_str_nr in self.extruderIds:
+                used_extruder_stack_ids.add(self.extruderIds[extruder_str_nr])
 
         try:
             return [container_registry.findContainerStacks(id = stack_id)[0] for stack_id in used_extruder_stack_ids]
